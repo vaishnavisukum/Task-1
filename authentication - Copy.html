@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Authentication page</title>
+  </head>
+  <body class="authentication">
+    <div class="otpbox">
+      <a href="./loginpage.html" target="_blank">back</a>
+      <h1>OTP Verification</h1>
+
+      <form action="./KYCverification.html">
+        <div>
+          <p class="authentication-p">Enter OTP</p>
+
+          <input
+            type="text"
+            class="inp"
+            id="box1"
+            oninput="moveToNext(this, 'box2')"
+            maxlength="1"
+            required
+          />
+
+          <input
+            type="text"
+            class="inp"
+            id="box2"
+            oninput="moveToNext(this, 'box3')"
+            maxlength="1"
+            required
+          />
+
+          <input
+            type="text"
+            class="inp"
+            id="box3"
+            oninput="moveToNext(this, 'box4')"
+            maxlength="1"
+            required
+          />
+
+          <input type="text" class="inp" id="box4" maxlength="1" required />
+        </div>
+        <pre>  Resend OTP  Timer: <span  class="auth-span" id="timer">02:00</span></pre>
+        <button class="auth-button" type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

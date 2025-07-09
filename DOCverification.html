@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Verification</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="doc-verify">
+    <div class="page">
+        <div class="navigation">
+            <p class="KYC-p">Home / Account / KYC Verification</p>
+            <div class="nav-element">
+                <div>
+                    <div class="circle" id="circle1"></div>
+                    <div class="dline"></div>
+                    <div class="circle"></div>
+                </div>
+                <div>
+                    <div class="element element1">
+                        <a class="link" href="KYCverification.html">
+                            <div id="element1">
+                                <i class="fas fa-user" id="user-icon"></i>
+                                <p class="info">Personal Information</p>
+                                <br />
+                                <p class="details">
+                                    1/2 provide us with details about yourself
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element doc-element2">
+                        <div id="element2">
+                            <i class="fa-solid fa-file-invoice" id="doc"></i>
+                            <p class="info">Identification of documents</p>
+                            <p class="details">2/2 Confirm your identity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="doc-upload">
+            <form class="form" action="./Dashboard.html" enctype="multipart/form-data">
+                <div class="sticker">Document Verification</div>
+
+                <div class="section">
+                    <fieldset class="fieldset">
+                        <legend class="KYC-legend"> Adhar no.</legend>
+                        <input type="text"   pattern="\d{4}-\d{4}-\d{4}" placeholder="0000-0000-0000" class="input inp1" required />
+                    </fieldset>
+
+                    <fieldset class="fieldset">
+                        <legend class="KYC-legend ">Upload</legend>
+                        <input type="file" accept="image/*" placeholder="abc.jpg" class="input file" 
+                            required />
+                    </fieldset>
+                    
+                </div>
+                <div class="docV-btn space"><button class="KYC-button"> Browse  &amp Upload</button>
+                </div>
+                <hr class="KYC-hr">
+                <div class="section">
+                    <fieldset class="fieldset">
+                        <legend class="KYC-legend"> PAN</legend>
+                        <input type="text" pattern="[A-Z]{5}[0-9]{4}[A-Z]" placeholder="RETWU4545E" class="input " required />
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend class="KYC-legend ">Upload</legend>
+                        <input type="file" accept="image/*" placeholder="abc.jpg" class="input" 
+                            required />
+                    </fieldset>
+
+                </div>
+                <div class="docV-btn space"><button class="KYC-button"> Browse  &amp Upload</button>
+              </div> 
+                 <button class="KYC-button proceed" type="submit">Proceed <i class="fas fa-arrow-right icon"></i></button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>KYC verification page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="KYC-body">
+  <div class="page">
+    <div class="navigation">
+      <p  class=" KYC-p">Home / Account / KYC Verification</p>
+      <div class="nav-element">
+        <div>
+          <div class="circle" id="circle1" ></div>
+          <div class="dline"></div>
+          <div class="circle"></div>
+        </div>
+        <div>
+          <div class="element element1">
+            <div>
+              <i class="fas fa-user"  id="user-icon"></i>
+              
+              <p class="info">Personal Information</p><br>
+
+              <p class="details">1/2 provide us with details about yourself</p>
+
+            </div>
+
+          </div>
+          <div class="element element2" >
+           <a href="DOCverification.html" class="link">
+            <i class="fa-solid fa-file-invoice"  id="doc"></i>
+            <p class="info">Identification of documents</p>
+            <p class="details">2/2 Confirm your identity</p>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="kycpage">
+
+      <form class="form" action="./DOCverification.html">
+        <div class="sticker">
+          Bio-Data
+        </div>
+        <div class="section">
+          <fieldset class="fieldset">
+            <legend class="KYC-legend">Surmane</legend>
+            <input type="text" placeholder="Enter your name" class="input"
+              required />
+          </fieldset>
+          <fieldset class="fieldset">
+            <legend class="KYC-legend ">Firstname</legend>
+            <input type="text" placeholder="Enter your First name" class="input" id="name-inpt" required  />
+          </fieldset>
+        </div>
+
+        <div class="section">
+          <fieldset class="fieldset">
+            <legend class="KYC-legend ">Date of Birth</legend>
+            <input type="date" placeholder=" DD/MM/YYYY" class="input inp1" required />
+          </fieldset>
+          <fieldset class="fieldset">
+            <legend class="KYC-legend ">Gender</legend>
+            <select class="select1 inp1" required>
+              <option value="" disabled selected>Select your gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </fieldset>
+        </div>
+        <div class="section2">
+          <fieldset class="fieldset" id="sec2-fieldset">
+            <legend class="KYC-legend ">Nationality</legend>
+            <div class="section2">
+              <select class="select2" required>
+                <option value="Indian">Indian</option>
+                <option value="Non-Indian">Non-Indian</option>
+              </select>
+          </fieldset>
+        </div>
+        <hr  class="KYC-hr" />
+        <div class="sticker">
+          Contact Information
+        </div>
+        <div class="section">
+
+          <fieldset class="fieldset">
+            <legend class="KYC-legend ">Email</legend>
+            <input class="input" type="email" name="email" id="email" placeholder="Enter your email address">
+          </fieldset>
+          <fieldset class="fieldset">
+            <legend class="KYC-legend ">State</legend>
+            <select class="select1" required>
+              <option value="" disabled selected>Select your state</option>
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Rajasthan">Rajasthan</option>
+            </select>
+          </fieldset>
+        </div>
+        <div class="section">
+          <fieldset class="fieldset">
+            <legend class="KYC-legend ">District</legend>
+            <select class="select1" required>
+              <option value="" disabled selected>Select your district</option>
+              <option value="Raigad">Raigad</option>
+              <option value="Thane">Thane</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Ajmer">Ajmer</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="fieldset">
+            <legend class="KYC-legend ">City</legend>
+            <select class="select1" required>
+              <option value="" disabled selected>Select your city</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Pune">Pune</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Jaipur">Jaipur</option>
+            </select>
+          </fieldset>
+        </div>
+        <button class="KYC-button proceed" type="submit">Proceed <i class="fas fa-arrow-right icon"></i></button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

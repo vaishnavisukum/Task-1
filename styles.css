@@ -1,0 +1,608 @@
+/* webpage css */
+.webpage {
+  background-color: rgb(46, 46, 201);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webpage-p {
+  display: flex;
+  color: white;
+  font-weight: 100;
+  font-size: 1rem;
+  text-decoration: wavy;
+  margin: 0px;
+  text-indent: 6rem;
+}
+
+.web-h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+/* loginpage css */
+.loginpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    margin: auto;
+     
+}
+.login-div{
+  transform:scale(1.1) ;
+    box-sizing: border-box;
+}
+
+.login-p {
+  margin: 0;
+  padding: 3px;
+}
+
+.or {
+  margin: 4px;
+  text-align: center;
+}
+
+.symbols {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.signup {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.log-input {
+  width: 274px;
+  padding: 10px;
+}
+
+.log-button {
+  width: 274px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.log-img {
+  width: 30px;
+}
+
+/* authentication page */
+.authentication-p {
+  opacity: 75%;
+}
+
+.auth-button {
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: blue;
+  border: none;
+  border-radius: 4px;
+}
+
+.authentication {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+.otpbox{
+  transform: scale(1.2);
+}
+
+
+.auth-span {
+  color: rgb(214, 166, 6);
+}
+
+.inp {
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* KYC verification */
+
+.KYC-body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page {
+  display: flex;
+}
+
+.sticker {
+  background-color: rgb(193, 223, 226);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 13px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  height: 40;
+}
+
+.navigation {
+  width: 37%;
+  background-color: #033fb9;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.circle {
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+}
+
+#circle1 {
+  margin-top: 35px;
+}
+
+.dline {
+  border-left: 2px solid white;
+  height: 90px;
+  margin-left: 14px;
+  border-style: dashed;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  width: 20px;
+}
+
+.nav-element {
+  margin-left: 40px;
+  display: flex;
+}
+
+.kycpage {
+  float: right;
+  width: 63%;
+}
+
+.form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 100vh;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section2 {
+  color: black;
+}
+
+.fieldset {
+  padding: 0;
+  margin: 0;
+  border-radius: 13px;
+  border-width: 4px;
+  display: flex;
+}
+
+#sec2-fieldset {
+  width: 230px;
+}
+
+.KYC-legend {
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.input {
+  border: none;
+  width: 280px;
+  border-width: 2px;
+  font-size: 1rem;
+  height: 34px;
+  
+}
+
+.input:focus,
+.select1:focus,
+.select2:focus {
+  outline: none;
+}
+
+.select1 {
+  border: none;
+  border-radius: 13px;
+  height: 40px;
+  width: 290px;
+  border-width: 2px;
+  font-size: 1rem;
+}
+
+.select2 {
+  border: none;
+  border-radius: 13px;
+  height: 40px;
+  width: 290px;
+  border-width: 2px;
+  font-size: 1rem;
+}
+
+.KYC-button {
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: blue;
+  border: none;
+  border-radius: 13px;
+  font-size: 1.2rem;
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+}
+
+.KYC-p {
+  margin-top: 30px;
+  margin-left: 20px;
+  color: rgb(250, 248, 248);
+  opacity: none;
+}
+
+.element {
+  padding: 7px;
+  margin-left: 8px;
+  border-radius: 15px;
+  background-color: #0b50da;
+  height: 80px;
+}
+
+.element1 {
+  margin-top: 5px;
+  display: flex;
+}
+
+.element2 {
+  margin-top: 25px;
+  opacity: 40%;
+}
+
+.info {
+  margin: 12px;
+  float: right;
+  margin-left: 5px;
+}
+
+.details {
+  font-size: 0.7rem;
+  padding-left: 5px;
+  margin: 10px;
+  width: fit-content;
+}
+
+.KYC-hr {
+  height: 3px;
+  background-color: black;
+  opacity: 20%;
+}
+
+#user-icon {
+  font-size: 25px;
+  padding: 8px;
+}
+
+#doc {
+  font-size: 25px;
+  padding: 8px;
+}
+
+/* document veification page */
+.doc-verify {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
+}
+
+#element1 {
+  opacity: 40%;
+}
+
+.doc-element2 {
+  margin-top: 25px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.doc-upload {
+  width: 63%;
+}
+
+.docV-btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.space {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.proceed {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.file {
+  border: none;
+}
+.doc-a{
+  text-decoration: none;
+  color: white;
+}
+
+/* dashboard page */
+.DOCv-body {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: fit-content;
+  transform: scale(0.6);
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.dashboard-page {
+  width: 80%;
+  height: 100vh;
+}
+
+.option {
+  color: white;
+  width: 70%;
+  margin: auto;
+  border-radius: 0.5rem;
+  height: 3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+}
+.DV-icon {
+  fill: white;
+  transition: fill 0.3s;
+}
+.option:hover {
+  background-color: white;
+  color: #033fb9;
+}
+
+.option:hover svg {
+  fill: #033fb9;
+}
+
+.dash-p {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  width: 20%;
+}
+.dashboard-page {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.top-pannel{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-between ;
+   background-color: rgb(255, 253, 253);
+
+}
+.searchbar{
+    border: 2px solid black;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+   background-color: rgb(233, 230, 230);
+}
+.Investmentpage {
+height: 90vh;
+background-color: rgb(233, 230, 230);
+
+}
+
+*{
+  box-sizing: border-box;
+  font-size: 'Segoe UI', sans-serif;
+}
+
+#search{
+margin-top: 0.4rem ;
+  height: fit-content;
+background-color: rgb(233, 230, 230);
+}
+.profile-icon{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  gap: 1rem;
+}
+.profile-img{
+ height: 2.5rem;
+ width: 2.5rem;
+}
+.profile-notification{
+  height: 1.8rem;
+  width: 1.8rem;
+}
+.div1,.div2,.div3{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.7rem;
+
+}
+.div1{
+  height: 15vh;
+
+}
+.div1 div{
+  width:18vw;
+}
+.div2{
+  height: 43vh;
+   ;
+}
+.div3{
+  height: 28vh;
+ 
+}
+.div3 div{
+  width:37.5vw; 
+}
+.box{
+background-color: white;
+border: 2px solid black;
+border-radius: 0.9rem;
+font-size: 1.4rem;
+padding: 0.5rem;
+}
+.blue-letter{
+  color: blue;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+}
+#d1box1{
+  border: none;
+  background-color: rgb(233, 230, 230);
+}
+#d2box1{
+  width:46vw;
+}
+#d2box2{
+  width:29vw;
+}
+#d1box1{
+  font-size:1.6rem ;
+  padding: 0.6rem;
+  font-weight: 400;
+}
+
+#d1box1 span{
+  background-color: rgb(236, 100, 50);
+  color: white;
+  width: fit-content;
+  border-radius: 2rem;
+  padding-left : 0.6rem ;
+   padding-right: 0.6rem ;
+
+}
+#d1box2,#d1box3,#d1box4{
+  display: flex;
+}
+.DV-img {
+ height: 4rem;
+float: right;
+}
+.Dash-a{
+  text-decoration: none;
+}
+.dash-p{
+font-size: 0.9rem;
+margin-bottom: 1
+0.7rem;
+}
+.dash-h4{
+ font-size:  1.3rem;
+ font-weight: 400;
+ margin-bottom: 0.2rem;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.table{
+  border: none;
+  text-align: center; 
+  font-size: 1.4rem;
+  padding: 0.7rem;
+  font-weight: 100;
+}
+.table tr{
+  margin-bottom: 0.8rem;
+    font-weight: 100;
+}
+.table th{
+padding-left: 2rem ;
+padding-right: 2rem;
+  font-weight: 500;
+}
+#pentagonChart {
+  width: 100%;
+  height: 300px;
+}
+#d3box2 {
+  display: flex;
+  
+}
+#pentagon{
+  height: 9rem;
+}
+/* Referral page */
+.Referral{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 230, 230);;
+}
+#ref-div1{
+ justify-content: left;
+}
+#ref-div2{
+
+      height: 73vh;
+    border: 2px solid red;
+}
+.spaceout{
+  margin-right: 1rem;
+}
