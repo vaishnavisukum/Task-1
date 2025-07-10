@@ -221,7 +221,7 @@
 
 .input {
   border: none;
-  width: 280px;
+  width: 290px;
   border-width: 2px;
   font-size: 1rem;
   height: 34px;
@@ -378,6 +378,7 @@
 .DOCv-body {
   margin: 0;
   padding: 0;
+    /* overflow: hidden; */
 }
 
 #logo {
@@ -389,7 +390,7 @@
 
 .dashboard-page {
   width: 80%;
-  height: 100vh;
+
 }
 
 .option {
@@ -427,6 +428,7 @@
 
 #nav {
   width: 20%;
+  
 }
 
 .dashboard-page {
@@ -441,6 +443,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgb(255, 253, 253);
+
 }
 
 .searchbar {
@@ -452,7 +455,7 @@
 }
 
 .Investmentpage {
-  height: 90vh;
+  height: 92vh;
   background-color: rgb(233, 230, 230);
 }
 
@@ -494,6 +497,7 @@
 
 .div1 {
   height: 15vh;
+  margin: 0;
 }
 
 .div1 div {
@@ -579,6 +583,7 @@
   font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 0.2rem;
+  margin-top: 0;
 }
 
 .table {
@@ -619,16 +624,48 @@
   padding: 0;
   background-color: rgb(233, 230, 230);
 }
-
+.Referralpage{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 #ref-div1 {
   justify-content: left;
 }
 
 #ref-div2 {
   height: 73vh;
-  border: 2px solid red;
+  
 }
 
 .spaceout {
   margin-right: 1rem;
+  width: 15rem;
+}
+.refd1,.refd2{
+    display: flex;
+ justify-content: space-between;
+  margin: 0.7rem;
+}
+.right-div{
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left-div{
+  width: 30vw;
+}
+#b1{
+  height: 43vh;
+}
+#b2{
+  height:28vh ;
+}
+#b3{
+ height: 73vh;
+}
+#chart{
+  margin: 0;
+  padding: 0;
+  width: 44vw;
 }
