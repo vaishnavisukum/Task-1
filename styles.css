@@ -35,12 +35,13 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-    margin: auto;
-     
+  margin: auto;
+
 }
-.login-div{
-  transform:scale(1.1) ;
-    box-sizing: border-box;
+
+.login-div {
+  transform: scale(1.1);
+  box-sizing: border-box;
 }
 
 .login-p {
@@ -100,7 +101,8 @@
   height: 100vh;
   margin: auto;
 }
-.otpbox{
+
+.otpbox {
   transform: scale(1.2);
 }
 
@@ -225,7 +227,7 @@
   border-width: 2px;
   font-size: 1rem;
   height: 34px;
-  
+
 }
 
 .input:focus,
@@ -369,7 +371,8 @@
 .file {
   border: none;
 }
-.doc-a{
+
+.doc-a {
   text-decoration: none;
   color: white;
 }
@@ -405,10 +408,12 @@
   gap: 0.5rem;
   padding-left: 0.5rem;
 }
+
 .DV-icon {
   fill: white;
   transition: fill 0.3s;
 }
+
 .option:hover {
   background-color: white;
   color: #033fb9;
@@ -426,183 +431,222 @@
 #nav {
   width: 20%;
 }
+
 .dashboard-page {
   margin: 0;
   padding: 0;
   height: 100vh;
 }
-.top-pannel{
+
+.top-pannel {
   height: 8vh;
   display: flex;
   align-items: center;
-  justify-content:space-between ;
-   background-color: rgb(255, 253, 253);
+  justify-content: space-between;
+  background-color: rgb(255, 253, 253);
 
 }
-.searchbar{
-    border: 2px solid black;
-    height: 2rem;
-    border-radius: 0.5rem;
-    margin-left: 2rem;
-   background-color: rgb(233, 230, 230);
+
+.searchbar {
+  border: 2px solid black;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+  background-color: rgb(233, 230, 230);
 }
+
 .Investmentpage {
-height: 90vh;
-background-color: rgb(233, 230, 230);
+  height: 90vh;
+  background-color: rgb(233, 230, 230);
 
 }
 
-*{
+* {
   box-sizing: border-box;
   font-size: 'Segoe UI', sans-serif;
 }
 
-#search{
-margin-top: 0.4rem ;
+#search {
+  margin-top: 0.4rem;
   height: fit-content;
-background-color: rgb(233, 230, 230);
+  background-color: rgb(233, 230, 230);
 }
-.profile-icon{
+
+.profile-icon {
   display: flex;
   align-items: center;
   margin-right: 2rem;
   gap: 1rem;
 }
-.profile-img{
- height: 2.5rem;
- width: 2.5rem;
+
+.profile-img {
+  height: 2.5rem;
+  width: 2.5rem;
 }
-.profile-notification{
+
+.profile-notification {
   height: 1.8rem;
   width: 1.8rem;
 }
-.div1,.div2,.div3{
+
+.div1,
+.div2,
+.div3 {
   display: flex;
   justify-content: space-evenly;
   margin: 0.7rem;
 
 }
-.div1{
+
+.div1 {
   height: 15vh;
 
 }
-.div1 div{
-  width:18vw;
+
+.div1 div {
+  width: 18vw;
 }
-.div2{
+
+.div2 {
   height: 43vh;
-   ;
+  ;
 }
-.div3{
+
+.div3 {
   height: 28vh;
- 
+
 }
-.div3 div{
-  width:37.5vw; 
+
+.div3 div {
+  width: 37.5vw;
 }
-.box{
-background-color: white;
-border: 2px solid black;
-border-radius: 0.9rem;
-font-size: 1.4rem;
-padding: 0.5rem;
+
+.box {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0.9rem;
+  font-size: 1.4rem;
+  padding: 0.5rem;
 }
-.blue-letter{
+
+.blue-letter {
   color: blue;
   margin: 0;
   padding: 0;
   height: fit-content;
 }
-#d1box1{
+
+#d1box1 {
   border: none;
   background-color: rgb(233, 230, 230);
 }
-#d2box1{
-  width:46vw;
+
+#d2box1 {
+  width: 46vw;
 }
-#d2box2{
-  width:29vw;
+
+#d2box2 {
+  width: 29vw;
 }
-#d1box1{
-  font-size:1.6rem ;
+
+#d1box1 {
+  font-size: 1.6rem;
   padding: 0.6rem;
   font-weight: 400;
 }
 
-#d1box1 span{
+#d1box1 span {
   background-color: rgb(236, 100, 50);
   color: white;
   width: fit-content;
   border-radius: 2rem;
-  padding-left : 0.6rem ;
-   padding-right: 0.6rem ;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
 
 }
-#d1box2,#d1box3,#d1box4{
+
+#d1box2,
+#d1box3,
+#d1box4 {
   display: flex;
 }
+
 .DV-img {
- height: 4rem;
-float: right;
+  height: 4rem;
+  float: right;
 }
-.Dash-a{
+
+.Dash-a {
   text-decoration: none;
 }
-.dash-p{
-font-size: 0.9rem;
-margin-bottom: 1
-0.7rem;
+
+.dash-p {
+  font-size: 0.9rem;
+  margin-bottom: 1 0.7rem;
 }
-.dash-h4{
- font-size:  1.3rem;
- font-weight: 400;
- margin-bottom: 0.2rem;
+
+.dash-h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-.table{
+
+.table {
   border: none;
-  text-align: center; 
+  text-align: center;
   font-size: 1.4rem;
   padding: 0.7rem;
   font-weight: 100;
 }
-.table tr{
+
+.table tr {
   margin-bottom: 0.8rem;
-    font-weight: 100;
+  font-weight: 100;
 }
-.table th{
-padding-left: 2rem ;
-padding-right: 2rem;
+
+.table th {
+  padding-left: 2rem;
+  padding-right: 2rem;
   font-weight: 500;
 }
+
 #pentagonChart {
   width: 100%;
   height: 300px;
 }
+
 #d3box2 {
   display: flex;
-  
+
 }
-#pentagon{
+
+#pentagon {
   height: 9rem;
 }
+
 /* Referral page */
-.Referral{
+.Referral {
   margin: 0;
   padding: 0;
-  background-color: rgb(233, 230, 230);;
+  background-color: rgb(233, 230, 230);
+  ;
 }
-#ref-div1{
- justify-content: left;
-}
-#ref-div2{
 
-      height: 73vh;
-    border: 2px solid red;
+#ref-div1 {
+  justify-content: left;
 }
-.spaceout{
+
+#ref-div2 {
+
+  height: 73vh;
+  border: 2px solid red;
+}
+
+.spaceout {
   margin-right: 1rem;
 }
