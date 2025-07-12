@@ -644,7 +644,7 @@
 .refd1,.refd2{
     display: flex;
  justify-content: space-between;
-  margin: 0.7rem;
+  margin: 0.5rem;
 }
 .right-div{
   width: 45vw;
@@ -668,4 +668,11 @@
   margin: 0;
   padding: 0;
   width: 44vw;
+}
+.image{
+  height: 35vh;
+}
+.chat-pannel{
+  height: 65vh;
+  width: 28vw;
 }
